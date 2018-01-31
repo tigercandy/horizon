@@ -1,0 +1,11 @@
+{
+  "name": "ncp",
+  "description": "new century php application",
+  "keywords": [
+    "php",
+    "yaf",
+    "swoole"
+  ],
+  "license":"MIT",
+  "type":"project"
+}
