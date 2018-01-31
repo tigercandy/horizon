@@ -7,7 +7,7 @@
  */
 class Index_Controller extends Yaf_Controller_Abstract
 {
-    public function index()
+    public function indexAction()
     {
         echo "hello world";
     }

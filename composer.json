@@ -6,6 +6,16 @@
     "yaf",
     "swoole"
   ],
-  "license":"MIT",
-  "type":"project"
+  "license": "MIT",
+  "type": "project",
+  "require": {
+    "php": ">7.0.0",
+    "monolog/monolog": "^1.22",
+    "illuminate/database": "^5.4"
+  },
+  "autoload": {
+    "pas-4": {
+
+    }
+  }
 }

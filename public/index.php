@@ -5,5 +5,5 @@
  * Time: 2:05 PM
  */
 define('APP_PATH', realpath(dirname(__FILE__) . '../../'));
-$app = new Yaf_Application(APP_PATH . '/conf/application.ini');
+$app = new Yaf_Application(APP_PATH . '/config/application.ini');
 $app->run();
