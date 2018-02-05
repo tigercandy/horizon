@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Author: virtual.tang@yingzt.com
+ * Author: tangchunlinit@foxmail.com
  * Date: 31/01/2018
  * Time: 6:55 PM
  */
@@ -30,7 +30,7 @@ class Bootstrap extends Yaf\Bootstrap_Abstract
     }
 
     /**
-     * 自动加载
+     * 集成composer自动加载
      */
     public function _initLoader()
     {
@@ -45,5 +45,14 @@ class Bootstrap extends Yaf\Bootstrap_Abstract
     {
         $user = new UserPlugin();
         $dispatcher->registerPlugin($user);
+    }
+
+    /**
+     * 视图
+     * @param Yaf_Dispatcher $dispatcher
+     */
+    public function _initView(Yaf_Dispatcher $dispatcher)
+    {
+        // TODO
     }
 }

@@ -1,21 +1,16 @@
 {
-  "name": "ncp",
-  "description": "new century php application",
-  "keywords": [
-    "php",
-    "yaf",
-    "swoole"
-  ],
-  "license": "MIT",
-  "type": "project",
-  "require": {
-    "php": ">7.0.0",
-    "monolog/monolog": "^1.22",
-    "illuminate/database": "^5.4"
-  },
-  "autoload": {
-    "pas-4": {
-
-    }
-  }
+    "name": "ncp/mantis",
+    "description": "New Century PHP Framework",
+    "type": "project",
+    "require": {
+        "qiniu/php-sdk": "^7.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mantis",
+            "email": "tangchunlinit@foxmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
 }
