@@ -1,16 +1,17 @@
 {
-    "name": "ncp/mantis",
-    "description": "New Century PHP Framework",
-    "type": "project",
-    "require": {
-        "qiniu/php-sdk": "^7.2"
-    },
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "mantis",
-            "email": "tangchunlinit@foxmail.com"
-        }
-    ],
-    "minimum-stability": "dev"
+  "name": "horizon/mantis",
+  "description": "Modern PHP Framework Base On YAF",
+  "keyworks": ["framework", "php", "yaf", "swoole"],
+  "type": "project",
+  "require": {
+    "qiniu/php-sdk": "^7.2"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "mantis",
+      "email": "tangchunlinit@foxmail.com"
+    }
+  ],
+  "minimum-stability": "dev"
 }
