@@ -1,6 +1,6 @@
 <p align="center">
-    <a href="https://github.com/chunlintang/horizon" target="_blank">
-        <img src="http://7xwkvc.com1.z0.glb.clouddn.com/horizon-welcome.jpeg" alt="horizon" />
+    <a href="https://github.com/chunlintang/horizon" target="_blank" style="font-size: 84px;">
+        Horizon
     </a>
 </p>
 
