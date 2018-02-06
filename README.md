@@ -1,6 +1,6 @@
 <p align="center">
-    <a href="https://github.com/chunlintang/horizon" target="_blank" style="font-size: 84px;">
-        Horizon
+    <a href="https://github.com/chunlintang/horizon" target="_blank">
+        <p style="font-size: 84px;">Horizon</p>
     </a>
 </p>
 
