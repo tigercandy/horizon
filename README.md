@@ -1,8 +1,8 @@
-<h2><p align="center">
+<h5><p align="center">
     <a href="https://github.com/chunlintang/horizon" target="_blank">
         <img src="http://7xwkvc.com1.z0.glb.clouddn.com/horizon-white.jpeg" alt="horizon" style="max-width: 50%;" />
     </a>
-</p></h2>
+</p></h5>
 
 [![Version](https://img.shields.io/badge/version-1.0.0-green.svg)](https://github.com/chunlintang/Horizon)
 [![Php Version](https://img.shields.io/badge/php-%3E=7.0-brightgreen.svg?maxAge=2592000)](https://github.com/chunlintang/Horizon)
