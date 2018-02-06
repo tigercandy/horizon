@@ -1,3 +1,8 @@
+<style>
+    p {
+        font-size: 84px;
+    }
+</style>
 <p align="center" style="font-size: 84px;">
     <a href="https://github.com/chunlintang/horizon" target="_blank">
         <span>Horizon</span>
