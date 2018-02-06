@@ -1,11 +1,6 @@
-<style>
-    p {
-        font-size: 84px;
-    }
-</style>
-<p align="center" style="font-size: 84px;">
+<p align="center">
     <a href="https://github.com/chunlintang/horizon" target="_blank">
-        <span>Horizon</span>
+        <img src="http://7xwkvc.com1.z0.glb.clouddn.com/horizon-white.jpeg" alt="horizon" />
     </a>
 </p>
 
