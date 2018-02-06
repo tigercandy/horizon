@@ -9,6 +9,6 @@ class IndexController extends Yaf\Controller_Abstract
 {
     public function indexAction()
     {
-        echo "Hello Horizon";
+        $this->getView()->assign('content', 'Horizon');
     }
 }
