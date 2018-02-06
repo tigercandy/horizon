@@ -10,3 +10,58 @@
 
 > A Modern PHP Framework Base on PHP7 and YAF.Integrated Composer and Swoole.
 
+#### Document
+
+- [![Document]](https://www.gitbook.com/book/mantis/horizon)
+
+#### Environmental Requirement
+
+- 1.PHP >= 7.1.5
+- 2.Yaf
+- 3.Swoole
+- 4.Composer
+
+#### Install
+
+- Clone
+- Composer install
+
+#### Configuration
+
+```ini
+[common]
+yaf.use_spl_autoload = on
+yaf.environ = develop
+
+;Application
+application.name = horizon
+application.timezon = Asia/Shanghai
+application.directory = APP_PATH "/application/"
+application.bootstrap = APP_PATH "/bootstrap/Bootstrap.php"
+
+;Database
+database.default.driver = mysql
+database.default.charset = utf8
+database.default.prefix = ""
+database.default.port = 3306
+
+;Cache
+
+;Redis
+
+;Session
+
+[product : common]
+;Database
+database.default.host = localhost
+database.default.username = root
+database.default.password = root
+database.default.database =
+
+[develop : common]
+;Database
+database.default.host = localhost
+database.default.username = root
+database.default.password = root
+database.default.database =
+```
