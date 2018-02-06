@@ -1,17 +1,36 @@
 {
   "name": "horizon/mantis",
   "description": "Modern PHP Framework Base On YAF",
-  "keyworks": ["framework", "php", "yaf", "swoole"],
-  "type": "project",
-  "require": {
-    "qiniu/php-sdk": "^7.2"
-  },
+  "keyworks": [
+    "framework",
+    "php",
+    "yaf",
+    "swoole"
+  ],
   "license": "MIT",
+  "type": "project",
   "authors": [
     {
       "name": "mantis",
       "email": "tangchunlinit@foxmail.com"
     }
   ],
-  "minimum-stability": "dev"
+  "require": {
+    "php": ">=7.1.5",
+    "qiniu/php-sdk": "^7.2",
+    "illuminate/database": "5.0.*",
+    "illuminate/events": "5.0.*",
+    "symfony/debug": "2.6.*",
+    "symfony/var-dumper": "2.6.*"
+  },
+  "minimum-stability": "dev",
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://packagist.phpcomposer.com"
+    },
+    {
+      "packagist": false
+    }
+  ]
 }

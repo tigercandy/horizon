@@ -39,9 +39,9 @@ class Bootstrap extends Yaf\Bootstrap_Abstract
 
     /**
      * 注册插件
-     * @param Yaf_Dispatcher $dispatcher
+     * @param Yaf\Dispatcher $dispatcher
      */
-    public function _initPlugin(Yaf_Dispatcher $dispatcher)
+    public function _initPlugin(Yaf\Dispatcher $dispatcher)
     {
         $user = new UserPlugin();
         $dispatcher->registerPlugin($user);
@@ -49,9 +49,9 @@ class Bootstrap extends Yaf\Bootstrap_Abstract
 
     /**
      * 视图
-     * @param Yaf_Dispatcher $dispatcher
+     * @param Yaf\Dispatcher $dispatcher
      */
-    public function _initView(Yaf_Dispatcher $dispatcher)
+    public function _initView(Yaf\Dispatcher $dispatcher)
     {
         // TODO
     }
