@@ -1,14 +1,4 @@
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Horizon</title>
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
     <!-- Styles -->
     <style>
         html, body {
@@ -62,9 +52,12 @@
             margin-bottom: 30px;
         }
     </style>
-    <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-</head>
-<body>
+<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<p align="center">
+    <a href="https://github.com/chunlintang/horizon" target="_blank">
+        <img src="http://7xwkvc.com1.z0.glb.clouddn.com/carbon-horizon.png" alt="horizon" />
+    </a>
+</p>
 <div class="flex-center position-ref full-height">
     <div class="content">
         <div class="title m-b-md">
