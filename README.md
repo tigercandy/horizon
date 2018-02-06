@@ -1,5 +1,5 @@
-[![Latest Version](https://img.shields.io/badge/unstable-v0.2.6-yellow.svg?maxAge=2592000)](https://github.com/chunlintang/Horizon)
+[![Version](https://img.shields.io/badge/version-1.0.0-green.svg)](https://github.com/chunlintang/Horizon)
 [![Php Version](https://img.shields.io/badge/php-%3E=7.0-brightgreen.svg?maxAge=2592000)](https://github.com/chunlintang/Horizon)
-[![Swoft License](https://img.shields.io/badge/license-apache%202.0-lightgrey.svg?maxAge=2592000)](https://github.com/chunlintang/Horizon/blob/master/LICENSE)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](http://opensource.org/licenses/MIT)
 
 A Modern PHP Framework Base on PHP7 and YAF.
