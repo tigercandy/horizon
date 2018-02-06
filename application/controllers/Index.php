@@ -9,6 +9,6 @@ class IndexController extends Yaf_Controller_Abstract
 {
     public function indexAction()
     {
-        echo "hello world";
+        echo "Hello Horizon";
     }
 }
