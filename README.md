@@ -1,7 +1,7 @@
 <p align="center">
-    <a href="https://github.com/chunlintang/horizon" target="_blank">
+    <h2><a href="https://github.com/chunlintang/horizon" target="_blank">
         <img src="http://7xwkvc.com1.z0.glb.clouddn.com/horizon-white.jpeg" alt="horizon" style="max-width: 50%;" />
-    </a>
+    </a></h2>
 </p>
 
 [![Version](https://img.shields.io/badge/version-1.0.0-green.svg)](https://github.com/chunlintang/Horizon)
