@@ -12,7 +12,7 @@
 
 #### Document
 
-- [![Document]](https://www.gitbook.com/book/mantis/horizon)
+- [Document](https://www.gitbook.com/book/mantis/horizon)
 
 #### Environmental Requirement
 
@@ -27,6 +27,8 @@
 - Composer install
 
 #### Configuration
+
+edit the ```config/application.ini```
 
 ```ini
 [common]
