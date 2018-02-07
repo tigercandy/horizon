@@ -7,7 +7,6 @@
  */
 
 use Illuminate\Events\Dispatcher as Dispatcher;
-use Illuminate\Container\Container as LContainer;
 use Illuminate\Database\Capsule\Manager as Capsule;
 
 class Bootstrap extends Yaf\Bootstrap_Abstract
@@ -57,5 +56,20 @@ class Bootstrap extends Yaf\Bootstrap_Abstract
     public function _initView(Yaf\Dispatcher $dispatcher)
     {
         // TODO
+    }
+
+    /**
+     * init Eloquent
+     */
+    public function _initCapsule()
+    {
+        $capsule = new Capsule;
+        /*foreach ($this->_config->database->toArray() as $connection => $database) {
+            $capsule->addConnection($database, $connection);
+        }*/
+        $capsule->addConnection($this->_config->database->toArray());
+        $capsule->setAsGlobal();
+        $capsule->setEventDispatcher(new Dispatcher());
+        $capsule->bootEloquent();
     }
 }
