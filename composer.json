@@ -1,7 +1,7 @@
 {
   "name": "horizon/mantis",
-  "description": "Modern PHP Framework Base On YAF",
-  "keyworks": [
+  "description": "Modern PHP framework base on yaf.",
+  "keywords": [
     "framework",
     "php",
     "yaf",
@@ -22,6 +22,11 @@
     "illuminate/events": "5.0.*",
     "symfony/debug": "2.6.*",
     "symfony/var-dumper": "2.6.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\Models\\": "application/models"
+    }
   },
   "minimum-stability": "dev",
   "repositories": [

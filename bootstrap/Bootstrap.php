@@ -5,6 +5,11 @@
  * Date: 31/01/2018
  * Time: 6:55 PM
  */
+
+use Illuminate\Events\Dispatcher as Dispatcher;
+use Illuminate\Container\Container as LContainer;
+use Illuminate\Database\Capsule\Manager as Capsule;
+
 class Bootstrap extends Yaf\Bootstrap_Abstract
 {
     private $_config;
@@ -43,8 +48,6 @@ class Bootstrap extends Yaf\Bootstrap_Abstract
      */
     public function _initPlugin(Yaf\Dispatcher $dispatcher)
     {
-        $user = new UserPlugin();
-        $dispatcher->registerPlugin($user);
     }
 
     /**
