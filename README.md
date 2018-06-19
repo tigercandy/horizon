@@ -12,7 +12,9 @@
 
 ## Document
 
-- [Document](https://www.gitbook.com/book/mantis/horizon)
+- [Horizon](https://www.gitbook.com/book/mantis/horizon)
+- [Yaf](http://www.laruence.com/manual/)
+- [Swoole](https://wiki.swoole.com/)
 
 ## Environmental Requirement
 
