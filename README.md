@@ -71,3 +71,7 @@ database.database = test
 ```
 php public/index.php
 ```
+
+## License
+
+MIT
