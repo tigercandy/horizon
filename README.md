@@ -28,44 +28,44 @@
 
 ## Configuration
 
-edit the ```config/application.ini```
+edit the ```config/app.ini```
 
 ```ini
 [common]
 yaf.use_spl_autoload = on
 yaf.environ = develop
 
-;Application
+; application
 application.name = horizon
 application.timezon = Asia/Shanghai
 application.directory = APP_PATH "/application/"
 application.bootstrap = APP_PATH "/bootstrap/Bootstrap.php"
 
-;Database
-database.default.driver = mysql
-database.default.charset = utf8
-database.default.prefix = ""
-database.default.port = 3306
+; database
+database.driver = mysql
+database.charset = utf8
+database.prefix = ""
+database.port = 3306
 
-;Cache
+; cache
 
-;Redis
+; redis
 
-;Session
+; session
 
 [product : common]
-;Database
-database.default.host = localhost
-database.default.username = root
-database.default.password = root
-database.default.database =
+; database
+database.host = localhost
+database.username = root
+database.password = root
+database.database = test
 
 [develop : common]
-;Database
-database.default.host = localhost
-database.default.username = root
-database.default.password = root
-database.default.database =
+; database
+database.host = localhost
+database.username = root
+database.password = root
+database.database = test
 ```
 ## Start Server
 ```
