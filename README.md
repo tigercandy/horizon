@@ -67,3 +67,7 @@ database.default.username = root
 database.default.password = root
 database.default.database =
 ```
+## Start Server
+```
+php public/index.php
+```
