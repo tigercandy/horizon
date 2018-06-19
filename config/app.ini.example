@@ -5,7 +5,7 @@ yaf.environ = develop
 ; application
 application.name = horizon
 application.timezon = Asia/Shanghai
-application.directory = APP_PATH "/application/"
+application.directory = APP_PATH "/app/"
 application.bootstrap = APP_PATH "/bootstrap/Bootstrap.php"
 
 ; database
