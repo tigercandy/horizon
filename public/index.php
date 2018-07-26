@@ -91,10 +91,8 @@ class HttpServer
 
     public function onWorkerStart()
     {
-        $this->app = new Yaf_Application(APP_PATH . '/config/app.ini');
-        ob_start();
+        $this->app = new Yaf\Application(APP_PATH . '/config/app.ini');
         $this->app->bootstrap()->run();
-        ob_end_clean();
     }
 
     public static function getInstance()
